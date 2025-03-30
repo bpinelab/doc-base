@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Low-Level Design on Doc-template</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/</link><description>Recent content in Low-Level Design on Doc-template</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Mar 2025 10:21:57 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/doc-template/itsm/platform/lld/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスデスク</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Low-Level Design on Doc-template</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/</link><description>Recent content in Low-Level Design on Doc-template</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 30 Mar 2025 17:14:42 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/doc-base/itsm/platform/lld/index.xml" rel="self" type="application/rss+xml"/><item><title>サービスデスク</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/servicedesk/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/servicedesk/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>このドキュメントでは、サービスデスクに Jira Service Management
 を使用する Low-Level Design (LLD) について説明します。&lt;/p>
 
@@ -36,7 +36,7 @@
 &lt;li>
 &lt;p>&lt;strong>Level 2 (L2)&lt;/strong>: 複雑な問題やテクニカルな課題に対応するサポート。L1 で対応で
 きない問題を受け取り、技術的な調査や再現テストを実施。必要に応じて L3 にエスカ
-レーション。&lt;/p></description></item><item><title>インシデント管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/incident/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/incident/</guid><description>&lt;h2 id="インシデント発生時の対応フロー">インシデント発生時の対応フロー&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+レーション。&lt;/p></description></item><item><title>インシデント管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/incident/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/incident/</guid><description>&lt;h2 id="インシデント発生時の対応フロー">インシデント発生時の対応フロー&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%af%be%e5%bf%9c%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>インシデントが発生すると、まずその発生ルートが特定されます。インシデントは大きく
 分けて以下の 2 つのルートで発生します：&lt;/p>
 &lt;ol>
@@ -49,7 +49,7 @@
 度を評価します。その後、適切な対応策が実行され、問題が解決されるまで状況をモニタ
 リングします。ユーザーや関係者への定期的な報告も含め、インシデントの進捗状況が透
 明に管理されます。&lt;/p>
-&lt;p>&lt;img src="https://bpinelab.github.io/doc-template/itsm/platform/lld/incident/incident_management_flow.svg" alt="対応フロー">&lt;/p>
+&lt;p>&lt;img src="https://bpinelab.github.io/doc-base/itsm/platform/lld/incident/incident_management_flow.svg" alt="対応フロー">&lt;/p>
 &lt;h2 id="インシデント分類と優先度設定">インシデント分類と優先度設定&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e5%88%86%e9%a1%9e%e3%81%a8%e5%84%aa%e5%85%88%e5%ba%a6%e8%a8%ad%e5%ae%9a" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>インシデントは、その深刻度と影響範囲に基づいて分類され、優先度が設定されます。分
 類の基準としては、以下の要素が含まれます：&lt;/p>
@@ -87,7 +87,7 @@
 &lt;h3 id="インシデント担当チームの振り分けルール">インシデント担当チームの振り分けルール&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e6%8b%85%e5%bd%93%e3%83%81%e3%83%bc%e3%83%a0%e3%81%ae%e6%8c%af%e3%82%8a%e5%88%86%e3%81%91%e3%83%ab%e3%83%bc%e3%83%ab" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;hr>
 &lt;p>title: インシデント担当チーム決定ルール date: 2024-10-12 description: &amp;gt; サービス
-デスクや監視ツールがインシデント発生時に担当チームを決定するためのルール設計。&lt;/p></description></item><item><title>問題管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/problem/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/problem/</guid><description>&lt;h2 id="問題の特定と登録フロー">問題の特定と登録フロー&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+デスクや監視ツールがインシデント発生時に担当チームを決定するためのルール設計。&lt;/p></description></item><item><title>問題管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/problem/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/problem/</guid><description>&lt;h2 id="問題の特定と登録フロー">問題の特定と登録フロー&lt;a class="td-heading-self-link" href="#%e5%95%8f%e9%a1%8c%e3%81%ae%e7%89%b9%e5%ae%9a%e3%81%a8%e7%99%bb%e9%8c%b2%e3%83%95%e3%83%ad%e3%83%bc" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>問題管理の最初のステップは、発生した問題を特定し、正確に登録することです。問題は
 、以下のようなルートから特定されます：&lt;/p>
 &lt;ul>
@@ -130,7 +130,7 @@
 &lt;p>問題管理は、継続的な改善プロセス（CIP: Continual Improvement Process）とも密接に
 関連しています。問題の発生からその解決までの過程で得られた知見や教訓は、CIP に反
 映され、さらなる改善活動が行われます。これにより、問題が根本的に解決され、IT シ
-ステム全体の品質が継続的に向上します。&lt;/p></description></item><item><title>変更管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/change/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/change/</guid><description>&lt;h2 id="変更要求rfcのプロセス">変更要求（RFC）のプロセス&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e8%a6%81%e6%b1%82rfc%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+ステム全体の品質が継続的に向上します。&lt;/p></description></item><item><title>変更管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/change/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/change/</guid><description>&lt;h2 id="変更要求rfcのプロセス">変更要求（RFC）のプロセス&lt;a class="td-heading-self-link" href="#%e5%a4%89%e6%9b%b4%e8%a6%81%e6%b1%82rfc%e3%81%ae%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>変更管理は、システムに対する変更を安全かつ効率的に実施するためのプロセスです。変
 更が必要になった際には、まず変更要求（RFC: Request for Change）が提出されます
 。RFC は、次の情報を含む必要があります：&lt;/p>
@@ -177,7 +177,7 @@
 &lt;p>変更管理プロセスにおいても、SLA が適用されます。SLA では、変更がどのくらいの期間
 で承認され、実施されるべきかが定義されています。また、変更によるシステムダウンタ
 イムも SLA に従って管理され、サービスレベルが維持されます。SLA 違反が発生した場
-合は、CAB や管理チームにエスカレーションされ、適切な対策が講じられます。&lt;/p></description></item><item><title>リリース管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/release/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/release/</guid><description>&lt;h2 id="リリースのスケジュールと計画">リリースのスケジュールと計画&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+合は、CAB や管理チームにエスカレーションされ、適切な対策が講じられます。&lt;/p></description></item><item><title>リリース管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/release/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/release/</guid><description>&lt;h2 id="リリースのスケジュールと計画">リリースのスケジュールと計画&lt;a class="td-heading-self-link" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%ae%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%a8%e8%a8%88%e7%94%bb" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>リリース管理は、IT サービスやシステムの新機能や修正を安全かつ効率的に展開するた
 めのプロセスです。リリースを実施する際には、事前に詳細な計画が策定されます。この
 計画には、以下の要素が含まれます：&lt;/p>
@@ -233,7 +233,7 @@
 &lt;/ul>
 &lt;p>すべてのテストは、リリース前に完了し、問題がないことを確認したうえで展開が行われ
 ます。リリース後も、適切なテスト結果が確認され次第、リリースが最終的に承認されま
-す。&lt;/p></description></item><item><title>構成管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/config/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/config/</guid><description>&lt;h2 id="構成アイテムciの定義と分類">構成アイテム（CI）の定義と分類&lt;a class="td-heading-self-link" href="#%e6%a7%8b%e6%88%90%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0ci%e3%81%ae%e5%ae%9a%e7%be%a9%e3%81%a8%e5%88%86%e9%a1%9e" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+す。&lt;/p></description></item><item><title>構成管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/config/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/config/</guid><description>&lt;h2 id="構成アイテムciの定義と分類">構成アイテム（CI）の定義と分類&lt;a class="td-heading-self-link" href="#%e6%a7%8b%e6%88%90%e3%82%a2%e3%82%a4%e3%83%86%e3%83%a0ci%e3%81%ae%e5%ae%9a%e7%be%a9%e3%81%a8%e5%88%86%e9%a1%9e" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>構成管理では、システム内のすべての構成アイテム（CI: Configuration Item）が特定さ
 れ、分類されます。構成アイテムには以下のような要素が含まれます：&lt;/p>
 &lt;ul>
@@ -272,7 +272,7 @@
 &lt;/ul>
 &lt;h2 id="ci-間の依存関係と影響分析">CI 間の依存関係と影響分析&lt;a class="td-heading-self-link" href="#ci-%e9%96%93%e3%81%ae%e4%be%9d%e5%ad%98%e9%96%a2%e4%bf%82%e3%81%a8%e5%bd%b1%e9%9f%bf%e5%88%86%e6%9e%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>構成管理では、各 CI の間に存在する依存関係を正確に把握することが重要です。CI 間
-の依存関係を理解することで、以下のような利点が得られます：&lt;/p></description></item><item><title>サービスレベル管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/service-level/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/service-level/</guid><description>&lt;h2 id="サービスレベル契約slaと目標設定">サービスレベル契約（SLA）と目標設定&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e5%a5%91%e7%b4%84sla%e3%81%a8%e7%9b%ae%e6%a8%99%e8%a8%ad%e5%ae%9a" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+の依存関係を理解することで、以下のような利点が得られます：&lt;/p></description></item><item><title>サービスレベル管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/service-level/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/service-level/</guid><description>&lt;h2 id="サービスレベル契約slaと目標設定">サービスレベル契約（SLA）と目標設定&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%bc%e3%83%93%e3%82%b9%e3%83%ac%e3%83%99%e3%83%ab%e5%a5%91%e7%b4%84sla%e3%81%a8%e7%9b%ae%e6%a8%99%e8%a8%ad%e5%ae%9a" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービスレベル管理（SLM）は、サービスの品質を確保し、顧客との期待値を明確にする
 ために行われるプロセスです。まず、サービスレベル契約（SLA）を定義し、サービスの
 具体的な目標を設定します。SLA には以下の項目が含まれます：&lt;/p>
@@ -312,7 +312,7 @@
 &lt;h2 id="sla-レビューと改善">SLA レビューと改善&lt;a class="td-heading-self-link" href="#sla-%e3%83%ac%e3%83%93%e3%83%a5%e3%83%bc%e3%81%a8%e6%94%b9%e5%96%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サービスレベル管理プロセスの一環として、定期的な SLA レビューが実施されます。こ
 のレビューでは、過去のパフォーマンスデータや顧客からのフィードバックをもとに
-、SLA の見直しが行われます。主なレビュー項目は以下の通りです：&lt;/p></description></item><item><title>継続的改善プロセス</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/continuous-improvement/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/continuous-improvement/</guid><description>&lt;h2 id="継続的改善プロセスの目的">継続的改善プロセスの目的&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+、SLA の見直しが行われます。主なレビュー項目は以下の通りです：&lt;/p></description></item><item><title>継続的改善プロセス</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/continuous-improvement/</link><pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/continuous-improvement/</guid><description>&lt;h2 id="継続的改善プロセスの目的">継続的改善プロセスの目的&lt;a class="td-heading-self-link" href="#%e7%b6%99%e7%b6%9a%e7%9a%84%e6%94%b9%e5%96%84%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>継続的改善プロセス（CIP: Continual Improvement Process）は、IT サービスや運用プ
 ロセスを絶え間なく向上させ、ビジネス価値を最大化することを目的としています。これ
 により、サービスの質を向上させ、顧客満足度を維持し、運用コストを削減することが可
@@ -357,7 +357,7 @@
 &lt;h2 id="改善の成果測定">改善の成果測定&lt;a class="td-heading-self-link" href="#%e6%94%b9%e5%96%84%e3%81%ae%e6%88%90%e6%9e%9c%e6%b8%ac%e5%ae%9a" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>改善活動が完了した後、その成果を測定します。成果の測定は、事前に設定した KPI や
 目標値に基づいて行われ、改善活動が期待通りの結果をもたらしたかを評価します。具体
-的には以下の点を確認します：&lt;/p></description></item><item><title>キャパシティ管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/capacity/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/capacity/</guid><description>&lt;h2 id="キャパシティ管理の目的">キャパシティ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+的には以下の点を確認します：&lt;/p></description></item><item><title>キャパシティ管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/capacity/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/capacity/</guid><description>&lt;h2 id="キャパシティ管理の目的">キャパシティ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%ad%e3%83%a3%e3%83%91%e3%82%b7%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>キャパシティ管理は、システムのパフォーマンスとリソースの最適化を目的とし、現在お
 よび将来のビジネスニーズに対応できるようにします。システムが必要とするリソース
 （CPU、メモリ、ストレージ、ネットワーク帯域など）を適切に予測し、サービスの提供
@@ -413,7 +413,7 @@
 スの追加がどのタイミングで行われるか。&lt;/li>
 &lt;/ul>
 &lt;p>SLA 違反が発生した場合、エスカレーションプロセスにより管理者に報告され、迅速に対
-応が行われます。&lt;/p></description></item><item><title>アベイラビリティ管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/availability/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/availability/</guid><description>&lt;h2 id="アベイラビリティ管理の目的">アベイラビリティ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%99%e3%82%a4%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+応が行われます。&lt;/p></description></item><item><title>アベイラビリティ管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/availability/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/availability/</guid><description>&lt;h2 id="アベイラビリティ管理の目的">アベイラビリティ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%a2%e3%83%99%e3%82%a4%e3%83%a9%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>アベイラビリティ管理は、IT サービスやシステムの可用性を最大限に高めることを目的
 としています。可用性は、システムやサービスが必要なときに利用可能であることを指し
 、ビジネスの継続性を確保するために非常に重要です。アベイラビリティ管理では、予期
@@ -468,7 +468,7 @@
 に通知。&lt;/li>
 &lt;/ul>
 &lt;p>モニタリング結果は定期的にレポートとしてまとめられ、関係者に提供されます。これに
-より、サービスの可用性状況を把握し、将来的な改善策が検討されます。&lt;/p></description></item><item><title>維持管理および運用監視</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/maintenance-monitoring/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/maintenance-monitoring/</guid><description>&lt;h2 id="維持管理の目的">維持管理の目的&lt;a class="td-heading-self-link" href="#%e7%b6%ad%e6%8c%81%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+より、サービスの可用性状況を把握し、将来的な改善策が検討されます。&lt;/p></description></item><item><title>維持管理および運用監視</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/maintenance-monitoring/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/maintenance-monitoring/</guid><description>&lt;h2 id="維持管理の目的">維持管理の目的&lt;a class="td-heading-self-link" href="#%e7%b6%ad%e6%8c%81%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>維持管理は、システムのパフォーマンス、安定性、およびセキュリティを継続的に確保し
 、ビジネスニーズを満たし続けることを目的としています。これには、システムの定期的
 なメンテナンス、更新、および修正が含まれます。維持管理プロセスを効果的に運用する
@@ -520,7 +520,7 @@
 &lt;li>&lt;strong>解決と報告&lt;/strong>: 問題が解決された後、原因と対応策が報告され、将来の改善に向け
 たフィードバックが行われます。&lt;/li>
 &lt;/ol>
-&lt;p>これにより、障害や異常が最小限の影響で迅速に解決されます。&lt;/p></description></item><item><title>インフラストラクチャ管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/infara-mgmt/</link><pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/infara-mgmt/</guid><description>&lt;h2 id="インフラストラクチャ管理の目的">インフラストラクチャ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>これにより、障害や異常が最小限の影響で迅速に解決されます。&lt;/p></description></item><item><title>インフラストラクチャ管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/infara-mgmt/</link><pubDate>Thu, 28 Nov 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/infara-mgmt/</guid><description>&lt;h2 id="インフラストラクチャ管理の目的">インフラストラクチャ管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>インフラストラクチャ管理の目的は、IT サービス提供に必要なハードウェア、ソフトウ
 ェア、ネットワークなどのインフラストラクチャを管理し、コスト、品質、可用性、パフ
 ォーマンスの最適化を図ることです。適切なインフラストラクチャ管理により、リスクを
@@ -569,7 +569,7 @@
 &lt;h2 id="インフラストラクチャリスク管理">インフラストラクチャリスク管理&lt;a class="td-heading-self-link" href="#%e3%82%a4%e3%83%b3%e3%83%95%e3%83%a9%e3%82%b9%e3%83%88%e3%83%a9%e3%82%af%e3%83%81%e3%83%a3%e3%83%aa%e3%82%b9%e3%82%af%e7%ae%a1%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>インフラストラクチャ管理には、リスク管理も含まれます。インフラストラクチャがサー
 ビスを提供できなくなるリスクや、品質が低下するリスクに備え、事前に対策を講じてお
-くことが重要です。リスク管理には以下の活動が含まれます：&lt;/p></description></item><item><title>サプライヤー管理</title><link>https://bpinelab.github.io/doc-template/itsm/platform/lld/supplier/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/lld/supplier/</guid><description>&lt;h2 id="サプライヤー管理の目的">サプライヤー管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+くことが重要です。リスク管理には以下の活動が含まれます：&lt;/p></description></item><item><title>サプライヤー管理</title><link>https://bpinelab.github.io/doc-base/itsm/platform/lld/supplier/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/lld/supplier/</guid><description>&lt;h2 id="サプライヤー管理の目的">サプライヤー管理の目的&lt;a class="td-heading-self-link" href="#%e3%82%b5%e3%83%97%e3%83%a9%e3%82%a4%e3%83%a4%e3%83%bc%e7%ae%a1%e7%90%86%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>サプライヤー管理の目的は、IT サービス提供に必要な外部ベンダーやサプライヤーとの
 関係を管理し、コスト、品質、納期、サービスレベルの最適化を図ることです。適切なサ
 プライヤー管理により、リスクを低減し、ビジネス価値を高めることが可能となります。&lt;/p>

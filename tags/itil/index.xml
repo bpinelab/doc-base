@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITIL on Doc-template</title><link>https://bpinelab.github.io/doc-template/tags/itil/</link><description>Recent content in ITIL on Doc-template</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Mar 2025 10:21:57 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/doc-template/tags/itil/index.xml" rel="self" type="application/rss+xml"/><item><title>運用手順書</title><link>https://bpinelab.github.io/doc-template/sop/manuals/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/sop/manuals/catalog/</guid><description>&lt;h2 id="1-目的">1. 目的&lt;a class="td-heading-self-link" href="#1-%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ITIL on Doc-template</title><link>https://bpinelab.github.io/doc-base/tags/itil/</link><description>Recent content in ITIL on Doc-template</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 30 Mar 2025 17:14:42 +0900</lastBuildDate><atom:link href="https://bpinelab.github.io/doc-base/tags/itil/index.xml" rel="self" type="application/rss+xml"/><item><title>運用手順書</title><link>https://bpinelab.github.io/doc-base/sop/manuals/catalog/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/sop/manuals/catalog/</guid><description>&lt;h2 id="1-目的">1. 目的&lt;a class="td-heading-self-link" href="#1-%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>本 SOP は、日常の運用業務における標準的な手順を定め、サービスの品質を一貫して維
 持することを目的としています。システムの安定稼働、インシデント対応、定期的なメン
 テナンスなどの業務が適切に実行されるようにサポートします。&lt;/p>
@@ -76,7 +76,7 @@
 &lt;h3 id="31-インシデント発生時の初期対応">3.1 インシデント発生時の初期対応&lt;a class="td-heading-self-link" href="#31-%e3%82%a4%e3%83%b3%e3%82%b7%e3%83%87%e3%83%b3%e3%83%88%e7%99%ba%e7%94%9f%e6%99%82%e3%81%ae%e5%88%9d%e6%9c%9f%e5%af%be%e5%bf%9c" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>&lt;strong>Critical インシデント&lt;/strong>&lt;/p></description></item><item><title>料金</title><link>https://bpinelab.github.io/doc-template/service/price/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/service/price/</guid><description>&lt;h2 id="1-料金概要">1. 料金概要&lt;a class="td-heading-self-link" href="#1-%e6%96%99%e9%87%91%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>Critical インシデント&lt;/strong>&lt;/p></description></item><item><title>料金</title><link>https://bpinelab.github.io/doc-base/service/price/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/service/price/</guid><description>&lt;h2 id="1-料金概要">1. 料金概要&lt;a class="td-heading-self-link" href="#1-%e6%96%99%e9%87%91%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>当社のマネージドサービス料金は、クライアントのシステム規模、要求されるサポートレベル、利用頻度、作業工数に応じて柔軟に設定されています。料金は、以下の要素に基づいて決定されます。&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>システム規模:&lt;/strong> 管理するサーバー数、ネットワークデバイス数、アプリケーション数に基づく基本料金&lt;/li>
@@ -256,7 +256,7 @@
 &lt;ul>
 &lt;li>&lt;a href="https://help.sap.com/viewer/product/SAP_S4HANA">SAP S/4HANA公式ドキュメント&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://learn.microsoft.com/en-us/azure/sap/">Azure上のSAP運用ガイド&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/doc-template/service/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/service/onboarding/</guid><description>&lt;h2 id="1-オンボーディングプロセス概要">1. オンボーディングプロセス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;/ul></description></item><item><title>オンボーディング</title><link>https://bpinelab.github.io/doc-base/service/onboarding/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/service/onboarding/</guid><description>&lt;h2 id="1-オンボーディングプロセス概要">1. オンボーディングプロセス概要&lt;a class="td-heading-self-link" href="#1-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%83%97%e3%83%ad%e3%82%bb%e3%82%b9%e6%a6%82%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>本プロセスでは、SAP S/4HANA ERPの運用・保守を適切に実施するために、サービスプロバイダからのシステム・運用情報の移管を行います。&lt;/p>
 &lt;h3 id="11-オンボーディングの目的">1.1 オンボーディングの目的&lt;a class="td-heading-self-link" href="#11-%e3%82%aa%e3%83%b3%e3%83%9c%e3%83%bc%e3%83%87%e3%82%a3%e3%83%b3%e3%82%b0%e3%81%ae%e7%9b%ae%e7%9a%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;ul>
@@ -350,7 +350,7 @@
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="3-受領すべきドキュメント">3. 受領すべきドキュメント&lt;a class="td-heading-self-link" href="#3-%e5%8f%97%e9%a0%98%e3%81%99%e3%81%b9%e3%81%8d%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>オンボーディング時には、以下のドキュメントを受領し、システム・運用情報の整理を行います。&lt;/p></description></item><item><title>Operations Platform Architecture</title><link>https://bpinelab.github.io/doc-template/itsm/platform/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/itsm/platform/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>オンボーディング時には、以下のドキュメントを受領し、システム・運用情報の整理を行います。&lt;/p></description></item><item><title>Operations Platform Architecture</title><link>https://bpinelab.github.io/doc-base/itsm/platform/architecture/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/itsm/platform/architecture/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure Landing Zone におけるオペレーションプラ
 ットフォームのアーキテクチャを説明し、サービスデスク、問題管理、変更管理、レポー
 トなどの ITIL 準拠機能に焦点を当てています。&lt;/p>
@@ -388,7 +388,7 @@ Analytics を使用してパフォーマンスデータを収集・分析し、�
 &lt;/ul>
 &lt;h3 id="3-ログおよび監査">3. &lt;strong>ログおよび監査&lt;/strong>&lt;a class="td-heading-self-link" href="#3-%e3%83%ad%e3%82%b0%e3%81%8a%e3%82%88%e3%81%b3%e7%9b%a3%e6%9f%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>ログおよび監査は、運用の透明性を維持し、組織や規制の基準に準拠するために不可欠で
-す。&lt;/p></description></item><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/doc-template/technology/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/technology/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+す。&lt;/p></description></item><item><title>Optimization Techniques</title><link>https://bpinelab.github.io/doc-base/technology/optimize/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/technology/optimize/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure Landing Zone を基にした運用の最適化技術
 に焦点を当て、パフォーマンス向上とコスト削減を目指します。&lt;/p>
 
@@ -431,7 +431,7 @@ Analytics を使用してパフォーマンスデータを収集・分析し、�
 &lt;h3 id="概要-2">概要&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%a6%81-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>パフォーマンス最適化は、システムのレスポンスと効率を最大化するためのプロセスです
 。最適化されたパフォーマンスにより、ユーザーエクスペリエンスの向上と、ダウンタイ
-ムの減少が期待できます。&lt;/p></description></item><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/doc-template/technology/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/technology/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+ムの減少が期待できます。&lt;/p></description></item><item><title>SAPシステム向け自動化・自律化</title><link>https://bpinelab.github.io/doc-base/technology/sap-optimization/</link><pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/technology/sap-optimization/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>本ドキュメントは、Azure IaaS 上に構築された SAP システムを対象
 にした自動化・自律化オペレーションプラットフォームアーキテクチャを説明します
 。&lt;/p>

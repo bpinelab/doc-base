@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge on Doc-template</title><link>https://bpinelab.github.io/doc-template/knowledge/</link><description>Recent content in Knowledge on Doc-template</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/doc-template/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown</title><link>https://bpinelab.github.io/doc-template/knowledge/markdown/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/knowledge/markdown/</guid><description>&lt;h2 id="1-見出し">1. 見出し&lt;a class="td-heading-self-link" href="#1-%e8%a6%8b%e5%87%ba%e3%81%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge on Doc-template</title><link>https://bpinelab.github.io/doc-base/knowledge/</link><description>Recent content in Knowledge on Doc-template</description><generator>Hugo</generator><language>ja</language><atom:link href="https://bpinelab.github.io/doc-base/knowledge/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown</title><link>https://bpinelab.github.io/doc-base/knowledge/markdown/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/knowledge/markdown/</guid><description>&lt;h2 id="1-見出し">1. 見出し&lt;a class="td-heading-self-link" href="#1-%e8%a6%8b%e5%87%ba%e3%81%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>見出しを作成する&lt;/strong>: &lt;code># 見出し1&lt;/code>, &lt;code>## 見出し2&lt;/code>, &lt;code>### 見出し3&lt;/code>&lt;br>
 &lt;code>#&lt;/code> の数に応じて、異なるレベルの見出しを作成できます。&lt;/li>
@@ -36,7 +36,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>&lt;strong>番号付きリスト&lt;/strong>: 数字とピリオドを使って順序付きリストを作成します。&lt;/li>
 &lt;/ul>
-&lt;p>例:&lt;/p></description></item><item><title>PlantUML</title><link>https://bpinelab.github.io/doc-template/knowledge/plantuml/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/knowledge/plantuml/</guid><description>&lt;h2 id="1-plantuml-とは">1. PlantUML とは&lt;a class="td-heading-self-link" href="#1-plantuml-%e3%81%a8%e3%81%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>例:&lt;/p></description></item><item><title>PlantUML</title><link>https://bpinelab.github.io/doc-base/knowledge/plantuml/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/knowledge/plantuml/</guid><description>&lt;h2 id="1-plantuml-とは">1. PlantUML とは&lt;a class="td-heading-self-link" href="#1-plantuml-%e3%81%a8%e3%81%af" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>PlantUML は、簡単なテキスト記法を使って UML 図を生成するツールです。シーケンス図
 、クラス図、アクティビティ図など、さまざまなダイアグラムを作成できます。&lt;/p>
 &lt;p>例:&lt;/p>
@@ -71,7 +71,7 @@ class Order {
 }
 User --&amp;gt; Order: places
 @enduml
-&lt;/code>&lt;/pre>&lt;p>このコードから、&lt;code>User&lt;/code>クラスと&lt;code>Order&lt;/code>クラスの関係を示すクラス図が生成されます。&lt;/p></description></item><item><title>ショートカット</title><link>https://bpinelab.github.io/doc-template/knowledge/shortcuts/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/knowledge/shortcuts/</guid><description>&lt;h2 id="1-タブ操作">1. タブ操作&lt;a class="td-heading-self-link" href="#1-%e3%82%bf%e3%83%96%e6%93%8d%e4%bd%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;/code>&lt;/pre>&lt;p>このコードから、&lt;code>User&lt;/code>クラスと&lt;code>Order&lt;/code>クラスの関係を示すクラス図が生成されます。&lt;/p></description></item><item><title>ショートカット</title><link>https://bpinelab.github.io/doc-base/knowledge/shortcuts/</link><pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/knowledge/shortcuts/</guid><description>&lt;h2 id="1-タブ操作">1. タブ操作&lt;a class="td-heading-self-link" href="#1-%e3%82%bf%e3%83%96%e6%93%8d%e4%bd%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>新しいタブを開く&lt;/strong>: &lt;code>Ctrl + T&lt;/code>（Mac では &lt;code>Cmd + T&lt;/code>）&lt;br>
@@ -102,7 +102,7 @@ User --&amp;gt; Order: places
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>ページを縮小する&lt;/strong>: &lt;code>Ctrl + -&lt;/code>（Mac では &lt;code>Cmd + -&lt;/code>）&lt;br>
-ページをズームアウトして内容を小さく表示します。&lt;/p></description></item><item><title>プロンプト</title><link>https://bpinelab.github.io/doc-template/knowledge/prompt/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-template/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+ページをズームアウトして内容を小さく表示します。&lt;/p></description></item><item><title>プロンプト</title><link>https://bpinelab.github.io/doc-base/knowledge/prompt/</link><pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate><guid>https://bpinelab.github.io/doc-base/knowledge/prompt/</guid><description>&lt;div class="pageinfo pageinfo-primary">
 &lt;p>このマニュアルでは、Markdown ドキュメントを統一したフォーマット
 で効率的に作成するための Prompt の書き方について説明します。チームメンバーが統一
 されたスタイルでドキュメントを作成できるように、基本的なルールやテンプレートを紹
