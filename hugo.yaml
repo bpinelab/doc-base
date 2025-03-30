@@ -1,5 +1,5 @@
-baseURL: https://bpinelab.github.io/doc-template/
-# baseURL: https://localhost:1313/doc-template/
+baseURL: https://bpinelab.github.io/doc-base/
+# baseURL: https://localhost:1313/doc-base/
 title: Doc-template
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu

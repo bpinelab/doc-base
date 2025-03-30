@@ -1,4 +1,25 @@
-# doc-template README
+# doc-base template
+
+This repository serves as a template for documentation projects. This was
+created using
+[https://github.com/google/docsy-example](https://github.com/google/docsy-example).
+It includes:
+
+- A pre-configured Hugo site using the Docsy theme
+- Standardized folder structures for documentation
+- Templates for guides, API references, and operational documents
+- Basic automation scripts for deployment
+
+## How to Use
+
+1. Click **"Use this template"** on GitHub to create a new repository based on
+   this template.
+2. Clone your new repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/YOUR-NEW-REPO.git
+   ```
+
+## Structure
 
 This repository is a template for documentation created using
 [https://github.com/google/docsy-example](https://github.com/google/docsy-example).
